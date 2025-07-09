@@ -12,7 +12,7 @@ const HeroSection = () => {
         </div>
         <div className="h-inherit bg-amber-300 min-w-[8rem] ">photo</div>
       </div>
-      <div className=" w-full text-zinc-500 ">
+      <div className=" w-full dark:text-zinc-400 text-zinc-500 ">
         <p className=" text-[1rem] pt-8 text-left font-semibold ">
           Hi, I'm Prashant Kumar Singh, a Full-Stack developer from India. I
           love crafting intuitive and dynamic UIs with React.js and Next.js.
