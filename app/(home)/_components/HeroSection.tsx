@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const HeroSection = () => {
   return (
@@ -10,7 +12,14 @@ const HeroSection = () => {
             Full Stack Engineer
           </h3>
         </div>
-        <div className="h-inherit bg-amber-300 min-w-[8rem] ">photo</div>
+        <div className="h-inherit bg-amber-200 dark:bg-amber-300 rounded-full min-w-[7.5rem] ">
+          <Image
+            src="/hero_image.png"
+            width="100"
+            height="100"
+            alt="Picture of prashant"
+          />
+        </div>
       </div>
       <div className=" w-full dark:text-zinc-400 text-zinc-500 ">
         <p className=" text-[1rem] pt-8 text-left font-semibold ">
@@ -35,8 +44,13 @@ const HeroSection = () => {
         </p>
         <p className="font-semibold  text-[1rem] pt-5 text-left">
           Take a look at my work experience{" "}
-          <span className="animate-ping ml-1">
-            <Link href={"/work"}>→</Link>
+          <Link href="/work" className="bg-amber-300  dark:text-black p-1">
+            here
+          </Link>
+          <span className="animate-ping ml-1 max-[420px]:hidden ">
+            <Link href={"/work"}>
+              <FiArrowUpRight className="mt-[-20px] h-3 w-3 bg-amber-400 dark:text-black inline" />
+            </Link>
           </span>
         </p>
       </div>
