@@ -5,7 +5,7 @@ const RootLayoutDesign = ({
 }>) => {
   return (
     <div className="bg-no-repeat  bg-top bg-[url('/gradient-background-top.webp')] pt-[5.5rem] min-h-[110vh] flex justify-center">
-      <div className="w-full md:max-w-[50rem] md:min-w-[44rem] ">
+      <div className="w-full md:max-w-[50rem] md:min-w-[44rem] bg-amber-100">
         {children}
       </div>
     </div>
