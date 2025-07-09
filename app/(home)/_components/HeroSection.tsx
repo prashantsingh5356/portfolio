@@ -1,0 +1,47 @@
+import Link from "next/link";
+
+const HeroSection = () => {
+  return (
+    <>
+      <div className="flex justify-between w-full min-h-[10vh] mt-25">
+        <div className="h-full ">
+          <h1 className="font-bold text-3xl">Prashant Kumar Singh</h1>
+          <h3 className="mt-1  font-semibold text-zinc-500">
+            Full Stack Engineer
+          </h3>
+        </div>
+        <div className="h-inherit bg-amber-300 min-w-[8rem] ">photo</div>
+      </div>
+      <div className=" w-full text-zinc-500 ">
+        <p className=" text-[1rem] pt-8 text-left font-semibold ">
+          Hi, I'm Prashant Kumar Singh, a Full-Stack developer from India. I
+          love crafting intuitive and dynamic UIs with React.js and Next.js.
+        </p>
+        <p className="font-semibold  text-[1rem] pt-5 text-left">
+          I am a technology enthusiast driven by the curiosity to build
+          meaningful and efficient digital solutions.
+        </p>
+        <p className="font-semibold  text-[1rem] pt-5 text-left">
+          I specialize in building responsive and user-friendly websites,
+          creating smooth and secure experiences.
+        </p>
+        <p className="font-semibold  text-[1rem] pt-5 text-left">
+          I enjoy browsing the web and crafting components.These days, I'm
+          diving deeper into the worlds of DevOps and AI, expanding my toolkit
+          for building faster, smarter, and more resilient systems.
+        </p>
+        <p className="font-semibold  text-[1rem] pt-5 text-left">
+          It's a continuous journey, and I'm excited about where it's headed.
+        </p>
+        <p className="font-semibold  text-[1rem] pt-5 text-left">
+          Take a look at my work experience{" "}
+          <span className="animate-ping ml-1">
+            <Link href={"/work"}>→</Link>
+          </span>
+        </p>
+      </div>
+    </>
+  );
+};
+
+export default HeroSection;
