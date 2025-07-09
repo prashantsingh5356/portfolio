@@ -1,7 +1,9 @@
-import ContactSection from "../(home)/_components/ContactSection";
-
 const ProjectPage = () => {
-  return <ContactSection />;
+  return (
+    <>
+      <div className=" w-100 border-2">Project page</div>
+    </>
+  );
 };
 
 export default ProjectPage;
