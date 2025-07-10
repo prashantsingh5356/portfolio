@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+
 const WorkExperienceCard = ({ workDetails }: any) => {
   return (
     <>
@@ -17,10 +20,13 @@ const WorkExperienceCard = ({ workDetails }: any) => {
           return (
             <div key={data.company} className="w-full min-h-[50vh] mt-10">
               <div>
-                <div className="w-full border rounded-3xl"></div>
+                <div className="w-full border rounded-3xl mb-8"></div>
                 <div className="w-full mt-4 ">
                   <h2 className="font-semibold text-2xl">
-                    {data?.company} <span>link</span>
+                    <Link href={data.company_link} target="_blank">
+                      {data?.company}
+                      <MdArrowOutward className="inline h-5 w-5 ml-2" />
+                    </Link>
                   </h2>
                   <h4 className="font-sm text-neutral-600 space-y-reverse mt-1 dark:text-neutral-400">
                     {data?.role} | {data.starting_month} - {data.ending_month}

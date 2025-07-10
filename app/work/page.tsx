@@ -20,7 +20,7 @@ const ProjectPage = () => {
   const myWorkExperienceList: DetailsWork = [
     {
       company: "Nimblework",
-      company_link: "#",
+      company_link: "https://www.nimblework.com/",
       role: "Full Stack Developer",
       starting_month: "June '23",
       ending_month: "May '24",
@@ -48,8 +48,8 @@ const ProjectPage = () => {
         "This project deepened my expertise in Java, SQL, Web standards, and React, aligning with industry standards.",
     },
     {
-      company: "Invento Robotics (Mitra AI)",
-      company_link: "#",
+      company: "Mitra Robot(Mitra AI)",
+      company_link: "https://mitrarobot.com/",
       role: "Software Engineer Intern",
       starting_month: "June '22",
       ending_month: "Dec '22",
