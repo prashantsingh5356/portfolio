@@ -23,8 +23,8 @@ const HeroSection = () => {
       </div>
       <div className=" w-full dark:text-zinc-400 text-zinc-500 ">
         <p className=" text-[1rem] pt-8 text-left font-semibold ">
-          Hi, I'm Prashant Kumar Singh, a Full-Stack developer from India. I
-          love crafting intuitive and dynamic UIs with React.js and Next.js.
+          Hi, I&apos;m Prashant Kumar Singh, a Full-Stack developer from India.
+          I love crafting intuitive and dynamic UIs with React.js and Next.js.
         </p>
         <p className="font-semibold  text-[1rem] pt-5 text-left">
           I am a technology enthusiast driven by the curiosity to build
@@ -35,12 +35,13 @@ const HeroSection = () => {
           creating smooth and secure experiences.
         </p>
         <p className="font-semibold  text-[1rem] pt-5 text-left">
-          I enjoy browsing the web and crafting components.These days, I'm
+          I enjoy browsing the web and crafting components.These days, I&apos;m
           diving deeper into the worlds of DevOps and AI, expanding my toolkit
           for building faster, smarter, and more resilient systems.
         </p>
         <p className="font-semibold  text-[1rem] pt-5 text-left">
-          It's a continuous journey, and I'm excited about where it's headed.
+          It&apos;s a continuous journey, and I&apos;m excited about where
+          it&apos;s headed.
         </p>
         <p className="font-semibold  text-[1rem] pt-5 text-left">
           Take a look at my work experience{" "}

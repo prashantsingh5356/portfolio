@@ -1,5 +1,5 @@
 const ProjectPage = () => {
-  return <h1>about page</h1>;
+  return <h1>project page</h1>;
 };
 
 export default ProjectPage;

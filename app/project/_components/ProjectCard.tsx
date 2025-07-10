@@ -17,8 +17,7 @@ const VideoCard = () => {
           <div className="w-[95%] min-h-[22vh] overflow-hidden rounded-lg bg-white">
             <video
               className="w-full h-[22vh] object-cover"
-              //src="https://pasp3hha2jfsaiwz.public.blob.vercel-storage.com/echo-chat-AB1zhCP8soPOmnJJP7Fho36VpJgaFg.mp4"
-              src="https://pasp3hha2jfsaiwz.public.blob.vercel-storage.com/space-uecizlixlpcAH1cmch9kYp12JQ0ryA.mp4"
+              src="/portfolio.mp4"
               autoPlay
               loop
               muted

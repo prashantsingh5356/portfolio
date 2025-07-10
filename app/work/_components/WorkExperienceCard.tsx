@@ -1,7 +1,28 @@
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 
-const WorkExperienceCard = ({ workDetails }: any) => {
+interface myWorkExperienceListType {
+  company: string;
+  company_link: string;
+  role: string;
+  starting_month: string;
+  ending_month: string;
+  short_description: string;
+  details: {
+    value: string;
+  }[];
+  learnings: string;
+}
+
+type DetailsWork = myWorkExperienceListType[];
+
+interface WorkExperienceCardProps {
+  workDetails: DetailsWork;
+}
+
+const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({
+  workDetails,
+}) => {
   return (
     <>
       {workDetails?.map(
