@@ -33,7 +33,7 @@ const VideoCard = () => {
 
 const TechStackCard = () => {
   return (
-    <div className="mt-1 flex justify-center items-center mx-1 px-2 min-w-[4rem] h-[2rem] max-w-[8rem] rounded-lg overflow-hidden bg-zinc-200 dark:bg-black">
+    <div className=" text-sm flex justify-center items-center p-2 min-w-[4rem] h-[1.2rem] max-w-[8rem] rounded-lg overflow-hidden bg-zinc-200 dark:bg-zinc-900 dark:text-white">
       Node JS
     </div>
   );
@@ -47,8 +47,7 @@ const VideoDescription = () => {
         Nov 2024 - Dec 2024
       </p>
       <p className="text-xs  font-semibold mb-2">Real time chat room</p>
-      <div className="w-full max-h-[11vh] min-h-[10vh] overflow-hidden flex flex-wrap  mb-2">
-        <TechStackCard />
+      <div className="w-full max-h-[11vh] min-h-[6vh] overflow-hidden flex flex-wrap gap-2 mb-2">
         <TechStackCard />
         <TechStackCard />
         <TechStackCard />
