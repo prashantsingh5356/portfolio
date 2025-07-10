@@ -5,7 +5,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const HeadingWorkSection = () => {
   return (
-    <div className="flex justify-between w-full  mt-25 mb-20 ">
+    <div className="flex flex-col gap-5 sm:flex sm:flex-row sm:justify-between w-full  mt-25 mb-10 sm:mb-20">
       <div className="h-full ">
         <h1 className="font-extrabold  tracking-tight text-4xl">My Work</h1>
       </div>
