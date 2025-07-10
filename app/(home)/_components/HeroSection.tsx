@@ -12,7 +12,7 @@ const HeroSection = () => {
             Full Stack Engineer
           </h3>
         </div>
-        <div className="h-inherit bg-amber-200 dark:bg-amber-300 rounded-full min-w-[7.5rem] ">
+        <div className="h-inherit bg-amber-400 dark:bg-amber-300 rounded-full min-w-[7.5rem] ">
           <Image
             src="/hero_image.png"
             width="100"

@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="relative  max-w-full shrink-0 rounded-2xl  "
+            className="relative  max-w-full shrink-0 rounded-2x "
             key={`item.name_${Math.random() * 100}`}
           >
             <item.icon className="h-15 w-15" />

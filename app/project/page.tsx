@@ -1,7 +1,13 @@
+import HeadingSection from "./_components/HeadingSection";
+import ProjectSection from "./_components/ProjectSection";
+
 const ProjectPage = () => {
   return (
     <>
-      <div className=" w-100 border-2">Project page</div>
+      <div className="min-h-[100vh]">
+        <HeadingSection />
+        <ProjectSection />
+      </div>
     </>
   );
 };

@@ -9,7 +9,7 @@ const TechStackSection = () => {
       <div className="mt-5">
         <span className="font-bold text-2xl  ">Tech Stack</span>
 
-        <span className="flex ">
+        <span className="flex pt-4">
           <span className="text-zinc-500 dark:text-zinc-400 font-semibold">
             Take a look at my project build using these technologies{" "}
             <Link href="/project" className="bg-amber-300 dark:text-black p-1">
@@ -23,7 +23,7 @@ const TechStackSection = () => {
           </span>
         </span>
       </div>
-      <div className="mt-8 w-full">
+      <div className="mt-10 w-full">
         <TechStack />
       </div>
     </div>
