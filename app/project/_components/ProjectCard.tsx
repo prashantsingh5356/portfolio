@@ -13,8 +13,8 @@ const VideoCard = () => {
             <div></div>
           </div>
         </div>
-        <div className="w-full min-h-[22vh]  flex justify-center items-center">
-          <div className="w-[95%] min-h-[22vh] overflow-hidden rounded-lg bg-white">
+        <div className="w-full max-h-[21vh]  flex justify-center items-center">
+          <div className="w-[95%] max-h-[21vh] overflow-hidden rounded-lg bg-white">
             <video
               className="w-full h-[22vh] object-cover"
               src="/portfolio.mp4"
