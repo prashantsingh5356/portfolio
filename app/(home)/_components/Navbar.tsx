@@ -6,6 +6,7 @@ import { Zen_Tokyo_Zoo } from "next/font/google";
 
 const zenFont = Zen_Tokyo_Zoo({
   weight: "400",
+  subsets: ["latin"],
 });
 
 const Navbar = () => {

@@ -128,4 +128,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 }
