@@ -59,9 +59,7 @@ const TechStackCard = ({ techStack }: { techStack: string }) => {
 const VideoDescription = ({ videoDesc }: { videoDesc: projectDataType }) => {
   return (
     <div className="w-full min min-h-[25vh]   p-1">
-      <h3 className="text-2xl font-semibold mb-2">
-        {videoDesc.project_description}
-      </h3>
+      <h3 className="text-2xl font-semibold mb-2">{videoDesc.project_name}</h3>
       <p className="text-xs text-gray-800 dark:text-white font-semibold mb-1">
         {videoDesc.started} - {videoDesc.ended}
       </p>
