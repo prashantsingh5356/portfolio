@@ -1,6 +1,7 @@
 import AboutMeHeaderSection from "./_components/AboutMeHeaderSection";
 import AboutMeSection from "./_components/AboutMeSection";
 import AboutSiteSection from "./_components/AboutSiteSection";
+import TextHoverEffectAboutSection from "./_components/TextHoverEffectAboutSection";
 
 const ProjectPage = () => {
   return (
@@ -8,6 +9,7 @@ const ProjectPage = () => {
       <AboutMeHeaderSection />
       <AboutMeSection />
       <AboutSiteSection />
+      <TextHoverEffectAboutSection />
     </div>
   );
 };

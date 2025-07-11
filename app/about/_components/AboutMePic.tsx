@@ -30,8 +30,8 @@ const AboutMePic = ({ picdata }: aboutMePicPropType) => {
         picdata.id >= 2 ? "hidden min-[455px]:block" : ""
       } ${picdata.rotate == rotate.LEFT ? "-rotate-5" : "rotate-5"}`}
     >
-      <div className=" w-full h-50 flex items-center justify-center rounded-lg ">
-        <div className="w-40 h-40  ">
+      <div className=" w-full h-50 flex items-center justify-center rounded-lg   ">
+        <div className="w-40 h-40 grayscale-100 hover:grayscale-0  transition-all duration-300 delay-150">
           <Image
             src={picdata.src}
             width="160"

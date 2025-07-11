@@ -25,13 +25,13 @@ const AboutMeSection = () => {
     {
       id: 2,
       src: "/prashant_image.jpeg",
-      title: "some title",
+      title: "Lost",
       rotate: rotate.RIGHT,
     },
     {
       id: 3,
       src: "/prashant_image.jpeg",
-      title: "some title",
+      title: "Found ",
       rotate: rotate.LEFT,
     },
   ];

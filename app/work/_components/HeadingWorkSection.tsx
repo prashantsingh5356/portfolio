@@ -7,7 +7,7 @@ const HeadingWorkSection = () => {
   return (
     <div className="flex flex-col gap-5 sm:flex sm:flex-row sm:justify-between w-full  mt-25 mb-10 sm:mb-20">
       <div className="h-full ">
-        <h1 className="font-extrabold  tracking-tight text-4xl">My Work</h1>
+        <h1 className="font-extrabold  tracking-tight text-4xl">my work</h1>
       </div>
       <div className="h-10 cursor-pointer ">
         <Link
