@@ -59,7 +59,7 @@ const AboutMeSection = () => {
           enhance my skills.
         </p>
         <p>
-          Currently, I'm diving into Devops, and Aitificial intelligence
+          Currently, I am diving into Devops, and Aitificial intelligence
           expanding my skills in these innovative areas.
         </p>
         <p>
