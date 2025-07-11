@@ -33,7 +33,6 @@ const ProjectSection = () => {
   return (
     <div className="w-full min-h-[50vh]">
       <div>
-        ``
         <h2 className="  text-2xl my-8 ">Top Projects</h2>
       </div>
       <div className="flex flex-col gap-10   min-h-[50vh]">
