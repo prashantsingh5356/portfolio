@@ -3,6 +3,7 @@ import Link from "next/link";
 import ThemeButton from "./ThemeButton";
 
 import { Zen_Tokyo_Zoo } from "next/font/google";
+import HamBurger from "./HamBurger";
 
 const zenFont = Zen_Tokyo_Zoo({
   weight: "400",
@@ -19,21 +20,24 @@ const Navbar = () => {
               PS
             </Link>
           </div>
-          <ul className="font-medium flex justify-around w-[50%] items-center h-10 text-sm ">
-            <li className=" dark:hover:text-white hover:text-black ">
+          <ul className="font-medium flex justify-around max-[500px]:justify-end lg:w-[50%] md:w-[60%] w-[70%] items-center h-10 text-sm ">
+            <li className=" dark:hover:text-white hover:text-black sm:block  max-[500px]:hidden">
               <Link href="/">Home</Link>
             </li>
-            <li className=" dark:hover:text-white hover:text-black">
+            <li className=" dark:hover:text-white hover:text-black sm:block max-[500px]:hidden">
               <Link href="/project">Project</Link>
             </li>
-            <li className=" dark:hover:text-white hover:text-black">
+            <li className=" dark:hover:text-white hover:text-black sm:block max-[500px]:hidden">
               <Link href="/work">Work</Link>
             </li>
-            <li className=" dark:hover:text-white hover:text-black">
+            <li className=" dark:hover:text-white hover:text-black sm:block max-[500px]:hidden">
               <Link href="/about">About</Link>
             </li>
             <li>
               <ThemeButton />
+            </li>
+            <li className="ml-4 min-[500px]:hidden max-[500px]:block">
+              <HamBurger />
             </li>
           </ul>
         </div>

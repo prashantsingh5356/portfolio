@@ -7,12 +7,14 @@ const HeroSection = () => {
     <>
       <div className="flex justify-between w-full min-h-[10vh] mt-25">
         <div className="h-full ">
-          <h1 className="font-bold text-3xl">Prashant Kumar Singh</h1>
+          <h1 className="font-bold sm:text-3xl text-2xl">
+            Prashant Kumar Singh
+          </h1>
           <h3 className="mt-1  font-semibold text-zinc-500">
             Full Stack Engineer
           </h3>
         </div>
-        <div className="h-inherit bg-amber-400 dark:bg-amber-300 rounded-full min-w-[7.5rem] ">
+        <div className="h-inherit bg-amber-400 dark:bg-amber-300 rounded-full max-h-[100px] min-w-[7.5rem] ">
           <Image
             src="/hero_image.png"
             width="100"
