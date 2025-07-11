@@ -26,7 +26,7 @@ const ProjectSection = () => {
       project_description: "Developer portfolio",
       project_stack: ["NextJS", "Tailwind", "ShadCn", "Aceternity"], // Max 6 important stack
       project_source_link: "https://github.com/prashantsingh5356/portfolio",
-      project_live_link: "https://portfolio-ivory-three-95.vercel.app/",
+      project_live_link: "https://www.devprashant.tech",
     },
   ];
 
