@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { Caveat } from "next/font/google";
+
 interface aboutMePic {
   id: number;
   src: string;
@@ -15,6 +17,11 @@ enum rotate {
 interface aboutMePicPropType {
   picdata: aboutMePic;
 }
+
+const cav = Caveat({
+  weight: "700",
+  subsets: ["latin"],
+});
 
 const AboutMePic = ({ picdata }: aboutMePicPropType) => {
   return (
@@ -33,8 +40,8 @@ const AboutMePic = ({ picdata }: aboutMePicPropType) => {
           />
         </div>
       </div>
-      <div className="w-full h-10 flex justify-center items-start font-semibold text-black">
-        <h4>{picdata.title}</h4>
+      <div className="w-full h-10 flex justify-center text-xl items-start font-bold text-black">
+        <h4 className={cav.className}>{picdata.title}</h4>
       </div>
     </div>
   );
