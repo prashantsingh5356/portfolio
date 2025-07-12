@@ -6,7 +6,7 @@ import { BsTwitterX, BsInstagram } from "react-icons/bs";
 
 function ContactSection() {
   return (
-    <div className="w-full flex items-center min-h-[10vh] mt-5 ">
+    <div className="animate-contact-fade-in  w-full flex items-center min-h-[10vh] mt-5 ">
       <div className="flex ">
         <div>
           <Link href="https://github.com/prashantsingh5356" target="_blank">

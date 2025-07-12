@@ -14,6 +14,69 @@
   }
 }
 
+@layer utilities {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes contact_fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes hero-name-fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes hero-title-fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 2s ease-out forwards;
+  }
+
+  .animate-contact-fade-in {
+    animation: contact_fadeIn 1s ease-out;
+  }
+
+  .animate-hero-name-fade-in {
+    animation: hero-name-fadeIn 1s ease-out;
+  }
+
+  .animate-hero-title-fade-in {
+    animation: hero-title-fadeIn 1s ease-out;
+  }
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
