@@ -11,7 +11,7 @@ const HeadingWorkSection = () => {
       </div>
       <div className="h-10 cursor-pointer ">
         <Link
-          href="https://drive.google.com/file/d/1i4sb2IguE8jeWEzV9-uSC89vwb13oRKN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1s3-Ydq4nleGI-xNMebEb8TnWKGYmwghM/view?usp=sharing"
           target="_blank"
         >
           <Button
